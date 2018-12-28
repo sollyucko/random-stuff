@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2018.04.18" orientation="orthogonal" renderorder="right-down" width="100" height="100"
+     tilewidth="32" tileheight="32" infinite="1" nextobjectid="5">
+    <tileset firstgid="1" source="ground.tsx"/>
+    <tileset firstgid="7" source="house.tsx"/>
+    <tileset firstgid="55" name="triggers" tilewidth="32" tileheight="32" tilecount="12" columns="6">
+        <image source="tiles/triggers.png" width="192" height="64"/>
+        <tile id="0">
+            <properties>
+                <property name="playerStart" value="down"/>
+            </properties>
+        </tile>
+        <tile id="2">
+            <properties>
+                <property name="entry" value="playerHouse.tmx"/>
+            </properties>
+        </tile>
+        <tile id="3">
+            <properties>
+                <property name="entry" value="playerHouse.tmx"/>
+            </properties>
+        </tile>
+        <tile id="4">
+            <properties>
+                <property name="solid" value=""/>
+            </properties>
+        </tile>
+        <tile id="5">
+            <properties>
+                <property name="solid" value=""/>
+            </properties>
+        </tile>
+        <tile id="6">
+            <properties>
+                <property name="water" value=""/>
+            </properties>
+        </tile>
+        <tile id="10">
+            <properties>
+                <property name="solid" value=""/>
+            </properties>
+        </tile>
+    </tileset>
+    <layer name="ground" width="100" height="100">
+        <data encoding="base64" compression="zlib">
+            <chunk x="-16" y="-16" width="16" height="16">
+                eJxjYBgFxABGHHhU/6j+oawfAGrwAEk=
+            </chunk>
+            <chunk x="0" y="-16" width="16" height="16">
+                eJxjYBjZgJEAHtU/qn846wcAmsAAYQ==
+            </chunk>
+            <chunk x="-16" y="0" width="16" height="16">
+                eJxjYCAOMOLAxAJK9Y+CUTAKqA8AMCgADQ==
+            </chunk>
+            <chunk x="0" y="0" width="16" height="16">
+                eJxjZGBgYMSDCQF8eonRPwpGwSgYOAAAQSAAEQ==
+            </chunk>
+        </data>
+    </layer>
+    <layer name="objects" width="100" height="100">
+        <data encoding="base64" compression="zlib">
+            <chunk x="-16" y="-16" width="16" height="16">
+                eJzty6EWwBAARmHNJFtCYmkkvP/LuW39D5J7zhevMafdWVxw4u9x4xH/gIgk/hkFr/h/qGji3zEwxf/0twBbvQH5
+            </chunk>
+            <chunk x="0" y="-16" width="16" height="16">
+                eJztyycSgDAABdFomqAJSgQJCJqg3f9o7BX+xGZnnlxjYiElSJEhRyH+JSrUaNCKf4ceA0ZY8Z/g4DFjEf8VG3YcOMX/wo0HLz7xj4X1Ay55A8E=
+            </chunk>
+        </data>
+    </layer>
+    <objectgroup name="triggers">
+        <object id="1" name="spawn" x="-32" y="-160" width="32" height="32"/>
+        <object id="4" name="door1" x="-32" y="-224" width="64" height="64">
+            <properties>
+                <property name="destinationMap" type="file" value=""/>
+                <property name="destinationX" type="float" value="0"/>
+                <property name="destinationY" type="float" value="0"/>
+            </properties>
+        </object>
+    </objectgroup>
+</map>
