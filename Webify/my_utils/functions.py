@@ -1,6 +1,6 @@
-from functools import wraps
+from functools import wraps, partial
 from types import CodeType, FunctionType
-from typing import Any, Callable, Iterable, Mapping, TypeVar
+from typing import Any, Callable, Iterable, Mapping, TypeVar, Tuple, Dict
 
 T = TypeVar('T')
 
@@ -46,32 +46,53 @@ def identity(x: T) -> T:
 
 
 def call_is_valid(func: FunctionType, args: Iterable[Any], kwargs: Mapping[str, Any]) -> bool:
-    new_fn = FunctionType(CodeType(
-         func.__code__.co_argcount,        # For args
-         func.__code__.co_kwonlyargcount,  # For args
-         func.__code__.co_nlocals,         # For args?
-        empty.__code__.co_stacksize,       # For code
-         func.__code__.co_flags,           # For args
-        empty.__code__.co_code,            # For code
-        empty.__code__.co_consts,          # For code
-         func.__code__.co_names,           # For args?
-         func.__code__.co_varnames,        # For args?
-         func.__code__.co_filename,
-         func.__code__.co_name,
-        empty.__code__.co_firstlineno,     # For code
-        empty.__code__.co_lnotab           # For code
-    ), {})
-    
-    new_fn.__defaults__ = func.__defaults__
-    new_fn.__kwdefaults__ = func.__kwdefaults__
-    
+    sig = signature(func)
+
     try:
-        new_fn(*args, **kwargs)
+        sig.bind(args, kwargs)
     except TypeError:
         return False
     else:
         return True
 
+    # Who needs version control when you have comments? :P
+    # new_fn = FunctionType(CodeType(
+    #      func.__code__.co_argcount,        # For args
+    #      func.__code__.co_kwonlyargcount,  # For args
+    #      func.__code__.co_nlocals,         # For args?
+    #     empty.__code__.co_stacksize,       # For code
+    #      func.__code__.co_flags,           # For args
+    #     empty.__code__.co_code,            # For code
+    #     empty.__code__.co_consts,          # For code
+    #      func.__code__.co_names,           # For args?
+    #      func.__code__.co_varnames,        # For args?
+    #      func.__code__.co_filename,
+    #      func.__code__.co_name,
+    #     empty.__code__.co_firstlineno,     # For code
+    #     empty.__code__.co_lnotab           # For code
+    # ), {})
+    #
+    # new_fn.__defaults__ = func.__defaults__
+    # new_fn.__kwdefaults__ = func.__kwdefaults__
+    #
+    # try:
+    #     new_fn(*args, **kwargs)
+    # except TypeError:
+    #     return False
+    # else:
+    #     return True
+
 
 def call_converted(f, kwargs):
     return f(**{k: f.__annotations__[k](v) for k, v in kwargs.items()})
+
+
+def curry(f: FunctionType) -> FunctionType:
+    @wraps(f)
+    def curried(*args, **kwargs):
+        if call_is_valid(f, args, kwargs):
+            return f(*args, *kwargs)
+        else:
+            return partial(curried, *args, **kwargs)
+
+    return curried
