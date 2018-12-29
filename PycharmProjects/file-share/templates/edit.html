@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Text editor{% endblock %}
+
+{% block body %}
+<form action="/edit/{{ filename }}" method=post>
+    <textarea name="text" title="File text">{{ file }}</textarea>
+    <input type="submit"/>
+</form>
+{% endblock %}

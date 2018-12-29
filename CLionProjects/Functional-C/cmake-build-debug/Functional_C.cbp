@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Functional_C"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/solly/CLionProjects/Functional-C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/solly/CLionProjects/Functional-C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/solly/CLionProjects/Functional-C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Functional_C">
+				<Option output="/home/solly/CLionProjects/Functional-C/cmake-build-debug/Functional_C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solly/CLionProjects/Functional-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/solly/CLionProjects/Functional-C/cmake-build-debug"/>
+					<Add directory="/home/solly/CLionProjects/Functional-C/out"/>
+					<Add directory="/home/solly/CLionProjects/Functional-C/ast"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Functional_C"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Functional_C/fast">
+				<Option output="/home/solly/CLionProjects/Functional-C/cmake-build-debug/Functional_C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solly/CLionProjects/Functional-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/solly/CLionProjects/Functional-C/cmake-build-debug"/>
+					<Add directory="/home/solly/CLionProjects/Functional-C/out"/>
+					<Add directory="/home/solly/CLionProjects/Functional-C/ast"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Functional_C/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/Functional-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/ast/AdditionExpression.h">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/ast/Block.cpp">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/ast/Block.h">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/ast/Expression.h">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/ast/Node.h">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/ast/Program.cpp">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/ast/Program.h">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/ast/Statement.h">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/cmake-build-debug/lexer.cpp">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/cmake-build-debug/lexer.cpp.rule">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/cmake-build-debug/parser.cpp">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/cmake-build-debug/parser.cpp.rule">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/cmake-build-debug/parser.hpp">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/main.cpp">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/out/cc.tab.h">
+			<Option target="Functional_C"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/Functional-C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

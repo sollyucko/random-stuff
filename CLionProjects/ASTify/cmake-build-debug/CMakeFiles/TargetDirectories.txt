@@ -1,0 +1,9 @@
+/home/solly/CLionProjects/ASTify/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/solly/CLionProjects/ASTify/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/solly/CLionProjects/ASTify/cmake-build-debug/CMakeFiles/ASTify.dir
+/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/CMakeFiles/edit_cache.dir
+/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/CMakeFiles/rebuild_cache.dir
+/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/CMakeFiles/TEST_1.dir
+/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/CMakeFiles/rebuild_cache.dir
+/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/CMakeFiles/edit_cache.dir
+/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/CMakeFiles/TEST_2.dir

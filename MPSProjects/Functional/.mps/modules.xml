@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/DisFunctional/DisFunctional.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DisFunctional/sandbox/DisFunctional.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Functional/Functional.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SemiFunctional/SemiFunctional.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

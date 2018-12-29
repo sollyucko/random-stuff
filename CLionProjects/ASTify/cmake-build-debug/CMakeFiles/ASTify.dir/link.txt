@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libASTify.so -o libASTify.so CMakeFiles/ASTify.dir/library.cpp.o 

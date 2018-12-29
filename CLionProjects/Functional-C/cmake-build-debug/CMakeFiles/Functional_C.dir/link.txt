@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Functional_C.dir/parser.cpp.o CMakeFiles/Functional_C.dir/lexer.cpp.o CMakeFiles/Functional_C.dir/ast/Block.cpp.o CMakeFiles/Functional_C.dir/ast/Program.cpp.o CMakeFiles/Functional_C.dir/main.cpp.o  -o Functional_C 

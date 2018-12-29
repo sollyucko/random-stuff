@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}File list{% endblock %}
+
+{% for file in files %}
+    <div class="item">
+
+        <h2>{{ filename }}</h2>
+        <a href="/uploads/{{ file }}">Download</a>
+        |
+        <a href="/delete/{{ file }}">delete</a>
+        |
+        <a href="/uploads/{{ file }}">view</a>
+        |
+        <a href="/edit/{{ file }}">edit</a>
+    </div>
+{% endfor %}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///media/solly/CIRCUITPY/.idea/CIRCUITPY.iml" filepath="/media/solly/CIRCUITPY/.idea/CIRCUITPY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Circuit-Playground-Express.iml" filepath="$PROJECT_DIR$/.idea/Circuit-Playground-Express.iml" />
+    </modules>
+  </component>
+</project>

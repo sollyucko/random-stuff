@@ -1,0 +1,62 @@
+<idea-plugin>
+    <id>io.github.sollyucko.coconut_plugin.unique.plugin.id</id>
+    <name>Coconut</name>
+    <version>1.0</version>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+    <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <small>most HTML tags may be used</small>
+      ]]></description>
+
+    <change-notes><![CDATA[
+      Add change notes here.<br>
+      <small>most HTML tags may be used</small>
+      ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="107.105"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <fileTypeFactory implementation="io.github.sollyucko.coconut_plugin.CoconutFileTypeFactory"/>
+        <lang.parserDefinition language="Coconut" implementationClass="io.github.sollyucko.coconut_plugin.CoconutParserDefinition"/>
+        <lang.syntaxHighlighterFactory key="Coconut"
+                                       language="Coconut"
+                                       implementationClass="io.github.sollyucko.coconut_plugin.CoconutSyntaxHighlighterFactory"/>
+        <colorSettingsPage implementation="io.github.sollyucko.coconut_plugin.CoconutColorSettingsPage"/>
+        <annotator language="JAVA" implementationClass="io.github.sollyucko.coconut_plugin.CoconutAnnotator"/>
+        <codeInsight.lineMarkerProvider language="JAVA" implementationClass="io.github.sollyucko.coconut_plugin.CoconutLineMarkerProvider"/>
+        <completion.contributor language="Coconut" implementationClass="io.github.sollyucko.coconut_plugin.CoconutCompletionContributor"/>
+        <psi.referenceContributor implementation="io.github.sollyucko.coconut_plugin.CoconutReferenceContributor"/>
+        <lang.findUsagesProvider language="Coconut" implementationClass="io.github.sollyucko.coconut_plugin.CoconutFindUsagesProvider"/>
+        <lang.refactoringSupport language="Coconut" implementationClass="io.github.sollyucko.coconut_plugin.CoconutRefactoringSupportProvider"/>
+        <lang.foldingBuilder language="JAVA" implementationClass="io.github.sollyucko.coconut_plugin.CoconutFoldingBuilder"/>
+        <gotoSymbolContributor implementation="io.github.sollyucko.coconut_plugin.CoconutChooseByNameContributor"/>
+        <lang.psiStructureViewFactory language="Coconut" implementationClass="io.github.sollyucko.coconut_plugin.CoconutStructureViewFactory"/>
+        <lang.formatter language="Coconut" implementationClass="io.github.sollyucko.coconut_plugin.CoconutFormattingModelBuilder"/>
+        <codeStyleSettingsProvider implementation="io.github.sollyucko.coconut_plugin.CoconutCodeStyleSettingsProvider"/>
+        <langCodeStyleSettingsProvider implementation="io.github.sollyucko.coconut_plugin.CoconutLanguageCodeStyleSettingsProvider"/>
+        <lang.commenter language="Coconut" implementationClass="io.github.sollyucko.coconut_plugin.CoconutCommenter"/>
+        <todoIndexer filetype="Coconut file" implementationClass="io.github.sollyucko.coconut_plugin.CoconutTodoIndexer"/>
+    </extensions>
+</idea-plugin>

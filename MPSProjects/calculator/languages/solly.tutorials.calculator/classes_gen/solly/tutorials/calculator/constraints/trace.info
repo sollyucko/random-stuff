@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="solly.tutorials.calculator.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:bf65cd28-3126-4b03-9c84-542df0928d5e(solly.tutorials.calculator.constraints)/7988224412133102068">
+    <file name="InputFieldReference_Constraints.java">
+      <node id="7988224412133102068" at="24,44,25,164" concept="7" />
+      <node id="7988224412133102068" at="29,90,30,131" concept="4" />
+      <node id="7988224412133102068" at="33,44,34,20" concept="5" />
+      <node id="7988224412133102068" at="41,63,42,58" concept="5" />
+      <node id="7988224412133102068" at="46,13,47,270" concept="4" />
+      <node id="7988224412133102068" at="47,270,48,64" concept="5" />
+      <node id="7988224412133102068" at="53,7,54,22" concept="5" />
+      <node id="7988224412133102068" at="56,0,57,0" concept="6" trace="breakingNode_43tbk9_a0a0a0a0a1a0b0a1a2" />
+      <node id="7988224412133102068" at="24,0,27,0" concept="1" trace="InputFieldReference_Constraints#()V" />
+      <node id="7988224412133102068" at="32,0,36,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="7988224412133102068" at="40,0,44,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="7988224412133102068" at="45,122,49,13" concept="0" />
+      <node id="7988224412133102068" at="44,0,51,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="7988224412133102068" at="38,56,51,10" concept="5" />
+      <node id="7988224412133102068" at="36,0,53,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="7988224412133102068" at="30,131,53,7" concept="2" />
+      <node id="7988224412133102068" at="28,0,56,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="7988224412133102068" at="24,44,25,164" />
+      <scope id="7988224412133102068" at="33,44,34,20" />
+      <scope id="7988224412133102068" at="41,63,42,58" />
+      <scope id="7988224412133102068" at="46,13,48,64">
+        <var name="scope" id="7988224412133102068" />
+      </scope>
+      <scope id="7988224412133102068" at="24,0,27,0" />
+      <scope id="7988224412133102068" at="32,0,36,0" />
+      <scope id="7988224412133102068" at="40,0,44,0" />
+      <scope id="7988224412133102068" at="45,122,49,13" />
+      <scope id="7988224412133102068" at="44,0,51,0">
+        <var name="_context" id="7988224412133102068" />
+        <var name="operationContext" id="7988224412133102068" />
+      </scope>
+      <scope id="7988224412133102068" at="38,56,51,10" />
+      <scope id="7988224412133102068" at="36,0,53,0" />
+      <scope id="7988224412133102068" at="29,90,54,22">
+        <var name="references" id="7988224412133102068" />
+      </scope>
+      <scope id="7988224412133102068" at="28,0,56,0" />
+      <unit id="7988224412133102068" at="39,19,51,9" name="solly.tutorials.calculator.constraints.InputFieldReference_Constraints$1$1" />
+      <unit id="7988224412133102068" at="31,153,53,5" name="solly.tutorials.calculator.constraints.InputFieldReference_Constraints$1" />
+      <unit id="7988224412133102068" at="23,0,58,0" name="solly.tutorials.calculator.constraints.InputFieldReference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

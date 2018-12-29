@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ASTify"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\1\;CMake Files\test\2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ASTify">
+				<Option output="/home/solly/CLionProjects/ASTify/cmake-build-debug/libASTify.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 ASTify"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ASTify/fast">
+				<Option output="/home/solly/CLionProjects/ASTify/cmake-build-debug/libASTify.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 ASTify/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST_1">
+				<Option output="/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/TEST_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/Makefile&quot;  VERBOSE=1 TEST_1"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST_1/fast">
+				<Option output="/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/TEST_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/Makefile&quot;  VERBOSE=1 TEST_1/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST_2">
+				<Option output="/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/TEST_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/Makefile&quot;  VERBOSE=1 TEST_2"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST_2/fast">
+				<Option output="/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/TEST_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/Makefile&quot;  VERBOSE=1 TEST_2/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/solly/CLionProjects/ASTify/cmake-build-debug/test/2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/solly/CLionProjects/ASTify/library.cpp">
+			<Option target="ASTify"/>
+			<Option target="TEST_1"/>
+			<Option target="TEST_2"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/ASTify/library.h">
+			<Option target="ASTify"/>
+			<Option target="TEST_1"/>
+			<Option target="TEST_2"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/ASTify/test/1/main.cpp">
+			<Option target="TEST_1"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/ASTify/test/2/main.cpp">
+			<Option target="TEST_2"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/ASTify/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/ASTify/test/1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\1\"/>
+		</Unit>
+		<Unit filename="/home/solly/CLionProjects/ASTify/test/2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

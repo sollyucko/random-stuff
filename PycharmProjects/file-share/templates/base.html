@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+<title>{% block title %}{% endblock %}</title>
+<h1>{{ self.title() }}</h1>
+
+<ul>
+    {% for message in get_flashed_messages() %}
+        <li>{{ message }}</li>
+    {% endfor %}
+</ul>
+
+{% block body %}{% endblock %}

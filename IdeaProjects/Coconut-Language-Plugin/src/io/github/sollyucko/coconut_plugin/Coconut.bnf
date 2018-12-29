@@ -1,0 +1,73 @@
+{
+ parserClass="io.github.sollyucko.coconut_plugin.parser.CoconutParser"
+
+ extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+ psiClassPrefix="Coconut"
+ psiImplClassSuffix="Impl"
+ psiPackage="io.github.sollyucko.coconut_plugin.psi"
+ psiImplPackage="io.github.sollyucko.coconut_plugin.psi.impl"
+
+ elementTypeHolderClass="io.github.sollyucko.coconut_plugin.psi.CoconutTypes"
+ elementTypeClass="io.github.sollyucko.coconut_plugin.psi.CoconutElementType"
+ tokenTypeClass="io.github.sollyucko.coconut_plugin.psi.CoconutTokenType"
+
+ parserUtilClass="io.github.sollyucko.coconut_plugin.ParserUtil"
+
+ extends(".*expression") = expression
+}
+
+file ::= statement ('regexp:\v+' statement?)*
+statement ::= expression // | simple_statement | compound_statement
+
+// Expression types
+expression ::= '(' expression ')' |
+    operatorless_expression |
+    << parseOperator operatorless_expression 'EXPRESSION'
+        'new OperatorPrecedenceGroup(2, Associativity.RIGHT, new String[]{ "**" })'
+        'new OperatorPrecedenceGroup(2, Associativity.LEFT,  new String[]{ "*", "/" })'
+        'new OperatorPrecedenceGroup(2, Associativity.LEFT,  new String[]{ "+", "-" })' >>
+
+//private addition_subtraction_expression ::= addition_expression | subtraction_expression
+//private multiplication_division_expression ::= multiplication_expression | division_expression | floor_division_expression | modulus_expression | matrix_multiplication_expression
+//private unary_expression ::= unary_plus_expression | unary_minus_expression | unary_opposite_expression
+private operatorless_expression ::= identifier | literal
+//
+//assignment_expression ::= assignable "=" expression { rightAssociative=true }
+//unary_minus_expression ::= "-" expression
+//unary_plus_expression ::= "+" expression
+//division_expression ::= expression "/" expression
+//multiplication_expression ::= expression "*" expression
+//subtraction_expression ::= expression "-" expression
+//addition_expression ::= expression "+" expression
+//exponentiation_expression ::= expression "**" expression { rightAssociative=true }
+//parenthesised_expression ::= "(" expression ")"
+//attribute_access_expression := expression "." identifier
+
+// Simple tokens
+identifier ::= "regexp:[^\\d\\W]\\w*"
+
+private literal ::= number | string
+
+private number ::= imaginary_number | real_number
+private real_number ::= non_integer_real_number | integer
+
+integer ::= decimal_integer | binary_integer | octal_integer | hexadecimal_integer
+private decimal_integer ::= nonzero_digit (["_"] digit)* | "0"+ (["_"] "0")*
+private binary_integer ::= "0" ("b" | "B") (["_"] binary_digit)+
+private octal_integer ::= "0" ("o" | "O") (["_"] octal_digit)+
+private hexadecimal_integer ::= "0" ("x" | "X") (["_"] hexadecimal_digit)+
+private nonzero_digit ::= "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+private digit ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+private binary_digit ::= "0" | "1"
+private octal_digit ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7"
+private hexadecimal_digit ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "a" | "b" | "c" | "d" | "e" | "f" | "A" | "B" | "C" | "D" | "E" | "F"
+
+non_integer_real_number ::= decimal_real | scientific_real
+private decimal_real ::= (simple_integer)? "." simple_integer | simple_integer "."
+private scientific_real ::= (simple_integer | decimal_real) ("e" | "E") ("+" | "-")? simple_integer
+private simple_integer ::= digit (["_"] digit)*
+
+imaginary_number ::= real_number ("i" | "I" | "j" | "J")
+
+string ::= "regexp:\"[^\"\\\\]*(\\\\.[^\"\\\\]*)*\""

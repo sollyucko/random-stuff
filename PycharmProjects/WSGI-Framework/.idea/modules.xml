@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Blammo-Website/.idea/Blammo-Website.iml" filepath="$PROJECT_DIR$/../Blammo-Website/.idea/Blammo-Website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Database/.idea/Database.iml" filepath="$PROJECT_DIR$/../Database/.idea/Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Utils/.idea/Utils.iml" filepath="$PROJECT_DIR$/../Utils/.idea/Utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WSGI-Framework.iml" filepath="$PROJECT_DIR$/.idea/WSGI-Framework.iml" />
+    </modules>
+  </component>
+</project>

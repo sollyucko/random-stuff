@@ -1,0 +1,28 @@
+{
+  parserClass="io.github.sollyucko.coconut_plugin.parser.CoconutParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="Coconut"
+  psiImplClassSuffix="Impl"
+  psiPackage="io.github.sollyucko.coconut_plugin.psi"
+  psiImplPackage="io.github.sollyucko.coconut_plugin.psi.impl"
+
+  elementTypeHolderClass="io.github.sollyucko.coconut_plugin.psi.CoconutTypes"
+  elementTypeClass="io.github.sollyucko.coconut_plugin.psi.CoconutElementType"
+  tokenTypeClass="io.github.sollyucko.coconut_plugin.psi.CoconutTokenType"
+
+  psiImplUtilClass="io.github.sollyucko.coconut_plugin.psi.impl.CoconutPsiImplUtil"
+}
+
+CoconutFile ::= (property|COMMENT)*
+
+property ::= (KEY SEPARATOR VALUE?)|KEY {
+    pin=3
+    recoverWhile="recover_property"
+    mixin="io.github.sollyucko.coconut_plugin.psi.impl.CoconutNamedElementImpl"
+    implements="io.github.sollyucko.coconut_plugin.psi.CoconutNamedElement"
+    methods=[getKey getValue getName setName getNameIdentifier getPresentation]
+}
+
+private recover_property ::= !(KEY|SEPARATOR|COMMENT)

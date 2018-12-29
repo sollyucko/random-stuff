@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="MicroPython" name="MicroPython">
+      <configuration>
+        <device name="ESP8266" />
+      </configuration>
+    </facet>
+    <facet type="Python" name="Python facet">
+      <configuration sdkName="Python 3.6 (Circuit-Python)" />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/atmel-samd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/bare-arm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/cc3200" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/docs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/esp8266" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/extmod" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/frozen" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/logo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/minimal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/mpy-cross" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/pic16bit" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/qemu-arm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/shared-bindings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/shared-module" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/stmhal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/teensy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/tools" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/unix" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/windows" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2.x/zephyr" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/circuitpython-2-stubs" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="MicroPython" level="project" />
+    <orderEntry type="library" name="Python 3.6 (Circuit-Python) interpreter library" level="application" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="pytest" />
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+  </component>
+</module>

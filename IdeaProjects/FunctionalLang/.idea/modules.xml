@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Functional-Language/Functional-Language.iml" filepath="$PROJECT_DIR$/../Functional-Language/Functional-Language.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Language-Interface/Language-Interface.iml" filepath="$PROJECT_DIR$/../Language-Interface/Language-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Utilities/Utilities.iml" filepath="$PROJECT_DIR$/../Utilities/Utilities.iml" />
+    </modules>
+  </component>
+</project>

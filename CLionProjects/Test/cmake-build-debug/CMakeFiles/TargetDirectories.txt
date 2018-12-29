@@ -1,0 +1,3 @@
+/home/solly/CLionProjects/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/solly/CLionProjects/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/solly/CLionProjects/Test/cmake-build-debug/CMakeFiles/Test.dir

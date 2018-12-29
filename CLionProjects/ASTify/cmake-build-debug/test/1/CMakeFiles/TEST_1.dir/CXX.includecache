@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/solly/CLionProjects/ASTify/library.cpp
+library.h
+/home/solly/CLionProjects/ASTify/library.h
+iostream
+-
+
+/home/solly/CLionProjects/ASTify/library.h
+string
+-
+
+/home/solly/CLionProjects/ASTify/test/1/main.cpp
+iostream
+-
+../../library.h
+/home/solly/CLionProjects/ASTify/library.h
+
