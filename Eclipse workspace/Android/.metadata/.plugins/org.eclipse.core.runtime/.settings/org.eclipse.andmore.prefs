@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+org.eclipse.andmore.buildVerbosity=VERBOSE
+org.eclipse.andmore.fixLegacyEditors=1
+org.eclipse.andmore.forceErrorNativeLibInJar=false
+org.eclipse.andmore.sdk=C\:\\Users\\Solly\\android-sdks
+org.eclipse.andmore.xmlEditor=true

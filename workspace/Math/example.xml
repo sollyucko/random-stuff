@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="math.xml.css"?>
+<sum xmlns="http://www.example.org/Math" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/Math Math.xsd">
+	<quotient>
+		<sum>
+			<number>1</number>
+			<number>2</number>
+		</sum>
+		<product>
+			<number>1</number>
+			<number>2</number>
+		</product>
+	</quotient>
+	<difference>
+		<number>3</number>
+		<number>4</number>
+	</difference>
+</sum>

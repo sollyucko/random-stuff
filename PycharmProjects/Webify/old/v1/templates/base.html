@@ -1,0 +1,24 @@
+{% macro render_nav(nav) %}{% if nav %}
+    <ul>
+        {% for url, title, sub_nav in nav %}
+            <li><a href="{{ url }}">{{ title }}</a>{{ render_nav(sub_nav) }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}{% endmacro %}
+
+<!DOCTYPE html>
+
+<html lang="{{ lang }}">
+    <head>
+        <title>{{ title | striptags }} - {{ site_name }}</title>
+    </head>
+    <body>
+        <header>
+            <h1><img src="{{ logo }}" alt="" />{{ site_name }}</h1>
+            <nav>{{ render_nav(nav) }}</nav>
+            <h2>{{ title }}</h2>
+        </header>
+        <main>{{ main }}</main>
+        <footer>{{ footer }}</footer>
+    </body>
+</html>

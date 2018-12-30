@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Duplicates" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="myFilterOutGeneratedCode" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlNonExistentInternetResource" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTarget" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Query_bound_parameters" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="Query_index_required" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="Query_restricted" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="Restricted_Python_calls" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>

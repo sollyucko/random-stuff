@@ -1,0 +1,68 @@
+package packagename;
+
+import toppackage.subpackage.importable;
+import toppackage.subpackage.*;
+
+public		abstract	class		publicabstractclass			{
+	
+}
+public					class		publicclass 				{
+	
+}
+public		abstract	interface	publicabstractinterface		{
+	
+}
+public					interface	publicinterface 			{
+	
+}
+public					@interface	publicannotation			{
+	
+}
+
+			abstract	class		packageabstractclass		{
+	
+}
+						class		packageclass		 		{
+	
+}
+			abstract	interface	packageabstractinterface	{
+	
+}
+						interface	packageinterface 			{
+	
+}
+						@interface	packageannotation			{
+	
+}
+
+protected	abstract	class		protectedabstractclass		{
+	
+}
+protected				class		protectedclass 				{
+	
+}
+protected	abstract	interface	protectedabstractinterface	{
+	
+}
+protected				interface	protectedinterface 			{
+	
+}
+protected				@interface	protectedannotation			{
+	
+}
+
+private		abstract	class		privateabstractclass		{
+	
+}
+private					class		privateclass 				{
+	
+}
+private		abstract	interface	privateabstractinterface	{
+	
+}
+private					interface	privateinterface 			{
+	
+}
+private					@interface	privateannotation			{
+	
+}

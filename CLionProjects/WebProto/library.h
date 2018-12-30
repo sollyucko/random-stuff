@@ -1,0 +1,4 @@
+#ifndef WEBPROTO_LIBRARY_H
+#define WEBPROTO_LIBRARY_H
+
+#endif

@@ -1,0 +1,4 @@
+#Fri Aug 05 19:54:38 EDT 2016
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=ddms

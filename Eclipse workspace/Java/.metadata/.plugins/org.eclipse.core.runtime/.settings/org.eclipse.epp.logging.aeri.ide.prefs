@@ -1,0 +1,11 @@
+anonymizeMessages=false
+anonymizeStackTraces=false
+configured=true
+debugEnabled=false
+eclipse.preferences.version=1
+reporterEmail=solly.ucko@gmail.com
+reporterName=Solly
+resetSendMode=KEEP
+resetSendModeOn=0
+sendMode=BACKGROUND
+servers/org.eclipse.epp.logging.aeri.ide.server/configured=true

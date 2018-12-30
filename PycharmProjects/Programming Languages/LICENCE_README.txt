@@ -1,0 +1,1 @@
+Joel Haftel gave me (Solomon Ucko) permission to "publish the partially-started JoelScript with the Unlicence (http://unlicense.org/)".

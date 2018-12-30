@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move source folder &apos;src&apos; to &apos;Math&apos;&#x0D;&#x0A;- Original project: &apos;OldMath&apos;&#x0D;&#x0A;- Destination element: &apos;Math&apos;&#x0D;&#x0A;- Original element: &apos;OldMath/src&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move source folder" destination="=Math" element1="/src" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="1" stamp="1477261868156" version="1.0"/>
+</session>

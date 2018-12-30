@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CodeReview/DeepNeuralNetwork/.idea/DeepNeuralNetwork.iml" filepath="$PROJECT_DIR$/../CodeReview/DeepNeuralNetwork/.idea/DeepNeuralNetwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Mafia/.idea/Mafia.iml" filepath="$PROJECT_DIR$/../Mafia/.idea/Mafia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NervousSystemGame/.idea/NervousSystemGame.iml" filepath="$PROJECT_DIR$/../NervousSystemGame/.idea/NervousSystemGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Programming Languages.iml" filepath="$PROJECT_DIR$/.idea/Programming Languages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RandomStuff/.idea/RandomStuff.iml" filepath="$PROJECT_DIR$/../RandomStuff/.idea/RandomStuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CodeReview/TkMinesweeper/.idea/TkMinesweeper.iml" filepath="$PROJECT_DIR$/../CodeReview/TkMinesweeper/.idea/TkMinesweeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CodeReview/TradingCardGame/.idea/TradingCardGame.iml" filepath="$PROJECT_DIR$/../CodeReview/TradingCardGame/.idea/TradingCardGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cep-2018-rpg/rpg-engine/.idea/rpg-engine.iml" filepath="$PROJECT_DIR$/../cep-2018-rpg/rpg-engine/.idea/rpg-engine.iml" />
+    </modules>
+  </component>
+</project>

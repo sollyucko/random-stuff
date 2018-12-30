@@ -1,0 +1,63 @@
+sum *, product *, difference * {
+	font-size: initial;
+}
+
+sum, product, difference {
+	font-size: 0;
+}
+
+:not(quotient) > sum:not(:root)::before, :not(quotient) > product:not(:root)::before, :not(quotient) > difference:not(:root)::before {
+	content: "(";
+	font-size: initial;
+}
+
+:not(quotient) > sum:not(:root)::after, :not(quotient) > product:not(:root)::after, :not(quotient) > difference:not(:root)::after {
+	content: ")";
+	font-size: initial;
+}
+
+sum > :not(:first-child)::before {
+	content: "+";
+	font-size: initial;
+}
+
+product > :not(:first-child)::before {
+	content: "×";
+	font-size: initial;
+}
+
+difference > :not(:first-child)::before {
+	content: "-";
+	font-size: initial;
+}
+
+sum > :not(number):not(:root):not(:first-child)::before {
+	content: "+(";
+	font-size: initial;
+}
+
+product > :not(number):not(:root):not(:first-child)::before {
+	content: "×(";
+	font-size: initial;
+}
+
+difference > :not(number):not(:root):not(:first-child)::before {
+	content: "-(";
+	font-size: initial;
+}
+
+quotient {
+	display: inline-block;
+}
+
+quotient > * {
+	display: block;
+}
+
+quotient > :first-child {
+	border-bottom: solid;
+}
+
+*, *::before, *::after {
+	vertical-align: middle;
+}

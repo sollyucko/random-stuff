@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">Games and Puzzles</string>
+	<string name="start">Start</string>
+	<string name="black">Black</string>
+	<string name="white">White</string>
+	<string name="tic_tac_toe">Tic Tac Toe</string>
+</resources>

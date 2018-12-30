@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="AndroidLibrary" pattern="lib:*..*" />
+</component>

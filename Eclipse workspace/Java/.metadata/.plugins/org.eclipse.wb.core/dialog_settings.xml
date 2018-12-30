@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.core.model.util.RenameConvertSupport$RenameDialog">
+		<item value="377" key="x"/>
+		<item value="525" key="width"/>
+		<item value="371" key="y"/>
+		<item value="281" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.model.util.ExposeComponentSupport$ExposeDialog">
+		<item value="377" key="x"/>
+		<item value="525" key="width"/>
+		<item value="371" key="y"/>
+		<item value="281" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.editor.palette.dialogs.CategoryEditDialog">
+		<item value="377" key="x"/>
+		<item value="525" key="width"/>
+		<item value="332" key="y"/>
+		<item value="360" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.model.property.order.ReorderDialog">
+		<item value="380" key="x"/>
+		<item value="520" key="width"/>
+		<item value="329" key="y"/>
+		<item value="365" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.editor.palette.dialogs.PaletteManagerDialog">
+	</section>
+	<section name="org.eclipse.wb.internal.core.editor.palette.dialogs.CategoryAddDialog">
+		<item value="377" key="x"/>
+		<item value="525" key="width"/>
+		<item value="318" key="y"/>
+		<item value="388" key="height"/>
+	</section>
+</section>

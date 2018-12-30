@@ -1,0 +1,23 @@
+INDEX VERSION 1.129+C:\Users\Solly\Eclipse workspace\Android\.metadata\.plugins\org.eclipse.jdt.core
+3363692690.index
+2088728460.index
+4178317693.index
+1214338229.index
+890887124.index
+285656556.index
+806062888.index
+2120312460.index
+916900781.index
+2569137926.index
+3609888128.index
+4121661813.index
+823384711.index
+710797068.index
+3487609244.index
+1177904427.index
+1093488887.index
+100574398.index
+3273689814.index
+2043626465.index
+2872033403.index
+1204375214.index

@@ -1,0 +1,4 @@
+C:/Users/Solly/CLionProjects/Web_Protocol/cmake-build-debug/CMakeFiles/Web_Protocol.dir
+C:/Users/Solly/CLionProjects/Web_Protocol/cmake-build-debug/CMakeFiles/Web_Protocol_Demo.dir
+C:/Users/Solly/CLionProjects/Web_Protocol/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Solly/CLionProjects/Web_Protocol/cmake-build-debug/CMakeFiles/rebuild_cache.dir

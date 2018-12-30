@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Math"
+	elementFormDefault="qualified" xmlns:math="http://www.example.org/Math">
+
+	<element name="number" type="decimal" />
+
+	<element name="sum" type="math:MultiOperator" />
+
+	<element name="difference" type="math:BinaryOperator" />
+
+	<element name="product" type="math:MultiOperator" />
+
+	<element name="quotient" type="math:BinaryOperator" />
+
+
+	<complexType name="BinaryOperator">
+		<sequence>
+			<any minOccurs="2" maxOccurs="2" />
+		</sequence>
+	</complexType>
+
+	<complexType name="MultiOperator">
+		<sequence>
+			<any minOccurs="1" maxOccurs="unbounded" />
+		</sequence>
+	</complexType>
+
+
+	<group name="operator">
+		<choice>
+			<element ref="math:number" />
+			<element ref="math:sum" />
+			<element ref="math:difference" />
+			<element ref="math:product" />
+			<element ref="math:quotient" />
+		</choice>
+	</group>
+</schema>

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Solly/CLionProjects/Web_Protocol/library.cpp
+library.h
+C:/Users/Solly/CLionProjects/Web_Protocol/library.h
+iostream
+-
+
+C:/Users/Solly/CLionProjects/Web_Protocol/library.h
+

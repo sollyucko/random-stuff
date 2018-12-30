@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<editCategory
+		id="org.eclipse.wb.swing.BoxLayout"
+		name="Boxes, Struts &amp; Springs"
+		description="javax.swing.Box helper entries"
+		visible="true"
+		open="false"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components.menu javax.swing.JPopupMenu"
+		category="org.eclipse.wb.swing.components.menu"
+		nextEntry="org.eclipse.wb.swing.components.menu javax.swing.JCheckBoxMenuItem"/>
+</commands>

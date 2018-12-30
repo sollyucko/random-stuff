@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AlphaUnsortedPropertiesFile" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="BashEvaluateArithmeticExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="BashEvaluateExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="BashFixShebang" enabled="false" level="WARNING" enabled_by_default="false">
+      <shebang>/bin/bash</shebang>
+      <shebang>/bin/sh</shebang>
+    </inspection_tool>
+    <inspection_tool class="BashFloatArithmetic" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="BashGlobalLocalVarDef" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="BashMissingInclude" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="BashReplaceWithSubshell" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="BashSimpleVarUsage" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="BashUnusedFunction" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="BashUnusedFunctionParams" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="BashWrapWord" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="DuplicatePropertyInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="CURRENT_FILE" value="true" />
+      <option name="MODULE_WITH_DEPENDENCIES" value="false" />
+      <option name="CHECK_DUPLICATE_VALUES" value="true" />
+      <option name="CHECK_DUPLICATE_KEYS" value="true" />
+      <option name="CHECK_DUPLICATE_KEYS_WITH_DIFFERENT_VALUES" value="true" />
+    </inspection_tool>
+    <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ProblematicWhitespace" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="PyArgumentEqualDefaultInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyAssignmentToLoopOrWithParameterInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyAugmentAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyByteLiteralInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="PyNoneFunctionAssignmentInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyProtectedMemberInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="RegExpAnonymousGroup" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="RegExpEmptyAlternationBranch" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="RegExpEscapedMetaCharacter" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="RegExpOctalEscape" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="RegExpRepeatedSpace" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="RestRoleInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredRoles">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="XmlPathReference" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="XmlUnboundNsPrefix" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>
