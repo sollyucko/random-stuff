@@ -4,7 +4,7 @@ from http import HTTPStatus
 from typing import Dict, Callable, Any, Union, Tuple
 from wsgiref.util import shift_path_info
 
-from my_utils.typing import wsgi
+from my_utils.type_stubs import wsgi
 
 
 class HTTPStatusException(Exception):

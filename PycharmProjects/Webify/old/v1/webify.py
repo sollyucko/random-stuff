@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import DeclarativeMeta
 from sqlalchemy.orm import Session, sessionmaker
 
 from my_utils.strings import buffered_join
-from my_utils.typing import wsgi
+from my_utils.type_stubs import wsgi
 
 Column_T = TypeVar('Column_T', bound=wsgi.Callable)
 DeclarativeMeta_T = TypeVar('DeclarativeMeta_T', bound=DeclarativeMeta)

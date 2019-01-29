@@ -12,7 +12,7 @@ from wsgiref.util import shift_path_info
 
 from my_utils import RecursiveDefaultDict, RecursiveMapping
 from my_utils.functions import call_is_valid, constant
-from my_utils.typing import wsgi
+from my_utils.type_stubs import wsgi
 
 __all__ = ['Action', 'Context', 'CreateAction', 'Managed', 'ReadAction', 'WebApp', 'WriteAction', 'create_auth']
 

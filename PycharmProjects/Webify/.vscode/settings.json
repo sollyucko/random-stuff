@@ -1,0 +1,12 @@
+{
+    "python.unitTest.promptToConfigure": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.pythonPath": "/home/solly/anaconda3/bin/python",
+    "python.linting.pep8Enabled": false,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/old": true
+    }
+}

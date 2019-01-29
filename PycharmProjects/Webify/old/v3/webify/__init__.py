@@ -8,7 +8,7 @@ from typing import Any, Callable, Dict, Generic, Iterable, Tuple, Type, TypeVar,
 from wsgiref.util import shift_path_info
 
 from my_utils.functions import call_is_valid
-from my_utils.typing import wsgi
+from my_utils.type_stubs import wsgi
 
 T = TypeVar('T')
 Managed_ = TypeVar('Managed_', bound='Managed')

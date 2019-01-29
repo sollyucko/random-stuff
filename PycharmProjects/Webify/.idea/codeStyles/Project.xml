@@ -1,6 +1,13 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
     <option name="LINE_SEPARATOR" value="&#13;&#10;" />
+    <Python>
+      <option name="DICT_ALIGNMENT" value="1" />
+      <option name="USE_CONTINUATION_INDENT_FOR_ARGUMENTS" value="true" />
+      <option name="OPTIMIZE_IMPORTS_SORT_NAMES_IN_FROM_IMPORTS" value="true" />
+      <option name="OPTIMIZE_IMPORTS_SORT_BY_TYPE_FIRST" value="false" />
+      <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
+    </Python>
     <XML>
       <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
       <option name="XML_KEEP_WHITE_SPACES_INSIDE_CDATA" value="true" />
