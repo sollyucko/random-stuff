@@ -1,9 +1,9 @@
 # random-stuff
 A bunch of random stuff that AFAIK I have permission to relicense. [rant](WHY DOES THIS HAVE TO BE SO COMPLICATED?!)[/rant] If you find any code (or other files) that might not have been created by me working alone, please let me know so I can remove it.
 
-P.S. Check the branches!
+P.S. Check the branches: https://github.com/sollyucko/random-stuff/tree/desktop, https://github.com/sollyucko/random-stuff/tree/laptop.
 
-[rant]
+&lt;rant&gt;
 
 As for licencing, I recommend taking a look at the following websites:
 
@@ -13,4 +13,4 @@ As for licencing, I recommend taking a look at the following websites:
 
 Just think about it. How often have you decided to either dangerously ignore licencing or not use the content simply because the licence was to annoying to deal with? And how useful do you think your copyleft or attribution requirement will be to you or any one else? Why not just put your work into the public domain (via [the WTFPL](http://www.wtfpl.net/), [the Unlicence](http://unlicense.org/), or [CC0](https://creativecommons.org/publicdomain/zero/1.0/))?
 
-[/rant]
+&lt;/rant&gt;
